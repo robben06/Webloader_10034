@@ -1,0 +1,79 @@
+#wrapper {
+
+
+
+}
+
+header {
+
+
+
+}
+
+section {
+
+
+
+}
+
+
+footer {
+
+
+
+}
+
+body {
+  background-color: #2c2c2c;
+  margin: 0px;
+
+
+}
+
+#DButten1{
+  
+  width: 70px;
+  height: 70px;
+  background-color: #ff0000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  background-image: url("_Bilder/DButten.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0px;
+  transition: 500ms;
+}
+
+#DButten1:hover{
+  
+  width: 300px;
+  height: 70px;
+  background-color: #ff0000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  background-image: url("_Bilder/DButten.png");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+  font-size: 40px;
+  transition: 500ms;
+}
+
+#DText{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin-left: 75px;
+}
+
+a{
+  color: black;
+}

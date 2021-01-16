@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+       <title>Webloader</title>
+    <head>
+	   <link rel="stylesheet" href="style.css" type="text/css" id="CSS">
+     <meta charset ="utf-8">
+
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.19/ua-parser.min.js"></script>
+         <script>
+
+
+         function MD() {
+
+           var ua = new UAParser();
+        	var result = ua.getResult();
+
+
+         if (result.device.type == "mobile") {
+           document.getElementById('CSS').href = 'Mobilestyle.css' ;
+
+         }
+     }
+
+     </script>
+
+    </head>
+
+  <body onload="MD()">
+    <div id="wrapper">
+
+	  <header>
+	  </header>
+	  <section><a href="_Bilder/DButten.png"<Download><div id="DButten1"><div id="DText">Download</div></div></a></section>
+	  <footer></footer>
+    </div>
+  </body>
+
+</html>
